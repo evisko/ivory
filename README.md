@@ -1,2 +1,4 @@
 # ivory
-website project
+A project for making a new website for IVORY
+
+
