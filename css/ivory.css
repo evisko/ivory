@@ -1,0 +1,402 @@
+
+
+
+html{
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+a{
+	color:#FAF9F4;
+}
+
+a:hover{
+	color:#c8c7c3;
+	text-decoration: none;
+}
+hr.light{
+	border-color:#F2F2F2;
+}
+
+h2{
+	font-size:35px;
+}
+
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('lato-medium') format('truetype');
+}
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('myfont.woff2') format('truetype');
+}
+
+.section-heading{
+	font-family: 'lato-medium', sans-serif;;
+}
+
+.text-font{
+	font-family: 'lato-light', sans-serif;
+}
+
+
+
+
+
+
+
+/*@@@@@@@@@@@@@@@@@ FRONT PAGE INTRO @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+header{
+-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+}
+
+#ivory-logo{
+	margin:0px auto;
+	width: 720px;
+}
+/*@@@@@@@@@@@@@@@@@ FRONT PAGE INTRO END @@@@@@@@@*/
+
+
+
+
+/*@@@@@@@@@@@@@@@@@ ABOUT US @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#about{
+	background-color: #F2F2F2;
+}
+
+
+.bg-primary{
+	background-color:#fff;
+	color:#2d2d2d;
+}
+
+.fa-about_us_icon{
+	font-size:14em;
+	color:#333;
+}
+
+.i_about_us{
+	text-align: left;
+	padding:0 10px 0 25px;
+}
+
+@media (max-width: 768px) {
+		#about{
+			padding-top:10px;
+			padding-bottom:30px;
+		}
+}
+
+/*@@@@@@@@@@@@@@@@@ ABOUT US END @@@@@@@@@@@@@@@@@*/
+
+
+/*@@@@@@@@@@@@@@@@@ SERVICES @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+
+
+
+.services li{
+	font-size: 12px;
+	
+}
+@media (min-width: 1024px) {
+	.services li{
+			font-size: 14px;
+	}
+}
+
+.service-image{
+	height: 560px;
+}
+
+.service-text-area{
+	color:#F2F2F2;
+	background-color:#1c1c1c;
+	min-height: 560px;
+	text-align: left;
+	padding:10px;
+}
+
+#service-text-area-intro{
+	padding-top:20px;
+	font-size: 15px;
+}
+
+#our-services-position{
+    margin-top: 5em;
+    padding: 0 5% 0 5%;
+}
+
+.service-text-area li{
+	color:#FFD452;
+	border-bottom:1px dashed #333;
+	list-style: none;
+}
+
+.service-text-area li:last-child { border-bottom: none; }
+
+.fa-check-square{ margin-right:5px; } .fa-ul{ margin-bottom:0; }
+/*@@@@@@@@@@@@@@@@@ SERVICES END@@@@@@@@@@@@@@@@@*/
+
+
+/*@@@@@@@@@@@@@@@@@ EQUIPMENT @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+#equipment{
+	background-color: #F2F2F2;
+	padding-bottom:0;
+}
+.eq-hr{
+	padding-bottom:20px;
+}
+
+
+.eq-heading{
+    text-align: center;
+    font-size:2em;
+
+}
+
+#control-room-one:after{
+ content: '';
+  position: absolute;
+ 
+  width: 0;
+  height: 0;
+ top:0;
+ right:-60px;
+  border: 60px solid;
+  border-top-color: #F2F2F2;
+    border-left-color:transparent;
+     border-right-color:transparent;
+      border-bottom-color:transparent;
+}
+#control-rooms{
+	background-color: #293E6A;
+	color:#FAF9F4;
+	
+
+}
+
+#control-room-one{
+	background-color:#3B5998;
+	padding-bottom:50px;
+	padding-top:34px;
+
+}
+
+#control-room-two{
+	padding-bottom:50px;
+	padding-top:34px;
+
+
+}
+
+
+
+.equipment-lists{
+color:333;
+}
+
+.equipment-tool-list li{
+	font-size: 12px;
+}
+
+.eq-icon{
+	position: relative;
+	top:40px;
+	z-index: 1;
+	margin-top:-80px;
+}
+
+@media (max-width: 1200px) {
+		 .eq-icon{
+			display: none;
+		}
+
+		#control-room-one:after{
+ 
+  border: none;
+ 
+}
+
+
+}
+
+
+/*@@@@@@@@@@@@@@@@@ EQUIPMENT END @@@@@@@@@@@@@@@@@@@*/
+
+
+
+/*@@@@@@@@@@@@@@@@@ CREDITS @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#credits{
+	background-color: #F2F2F2;
+}
+.credits-cd-recording{
+	color:#76c4AE;
+}
+
+.credits-live-recording{
+	color:#9FC2BA;
+}
+.credits-orchestral-recording{
+	color:#DDB0A0;
+}
+
+.credits-hilight{
+	font-size: 24px;
+	font-style: bold;
+}
+
+.credits{
+	font-size:1em;
+	text-align: justify;
+}
+
+.credits-icons{
+	color:#333;
+	margin-right: 12px;
+}
+
+.credits-heading{
+	position: relative;
+	bottom:8px;
+}
+
+.credits-heading-sub{
+	position: relative;
+	bottom:3px;
+	margin-bottom:2em;
+	color:#474747;
+}
+
+.service-box-s{
+	text-align: left;
+}
+#credits-right-border{
+	border-right:1px dashed grey;
+}
+
+#credits-top-border{
+	border-top: 1px dashed grey;
+}
+
+@media (max-width: 991px) {
+		#credits-right-border{
+	border-right:none;
+	border-bottom:1px dashed grey;
+}
+
+
+}
+
+.fa-caret-right{
+	margin-right: 5px;
+}
+/*@@@@@@@@@@@@@@@@@ CREDITS END @@@@@@@@@@@@@@@@@*/
+
+
+/*@@@@@@@@@@@@@@@@@ CONTACT US @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+.image-quote{
+	height: 250px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+   
+}
+
+
+.contact-cover{
+	/*background-image: url(../img/i_contact.jpg);*/
+    background-color:#1c1c1c;
+
+    text-align: center;
+    color: #fff;
+	/*height: 345px;*/
+}
+
+
+#contact-info{
+	padding-top:100px;
+	/*height: 500px;*/
+}
+
+#contact-info .li-title{
+	color:#FFD452;
+	border-bottom:1px dashed #333;
+	list-style: none;
+	position:relative;
+	font-weight: bold;
+	width:70%;
+}
+
+#contact-info .sub-title{
+	padding-bottom:9px;
+	font-size: 15px;
+	list-style: none;
+	position:relative;
+	
+	
+}
+
+#contact-info li{
+	list-style: none;
+	color:#F2F2F2;
+	text-align:left;
+}
+
+#contact-info .fa{
+	margin-right:15px;
+	color:#FFD452;
+}
+
+#map-container{
+   height:345px;
+   width:70%;
+   margin-top:9px;
+}
+
+.address{
+	padding-top:9px;
+}
+/*@@@@@@@@@@@@@@@@@ CONTACT US END @@@@@@@@@@@@@@@*/
+
+
+
+
+
+.ending{
+	margin-top:90px;
+	color:grey;
+	font-size: 9px;
+}
+
+.ending p{
+	font-size:8px;
+	margin-bottom: 5px !important;
+}
+
+
+@media (max-width: 768px) {
+		#map-container{
+   height:345px;
+   width:100%;
+   margin-top:9px;
+}
+}
