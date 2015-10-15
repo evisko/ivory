@@ -355,6 +355,14 @@ color:333;
 	
 }
 
+.first-sub{
+	border-top: 1px dashed #333;
+    margin-top: 35px;
+    width: 70%;
+    padding-top:9px;
+}
+
+
 #contact-info li{
 	list-style: none;
 	color:#F2F2F2;
@@ -364,6 +372,10 @@ color:333;
 #contact-info .fa{
 	margin-right:15px;
 	color:#FFD452;
+}
+
+#contact-info .fa-facebook{
+	margin-right:19px;
 }
 
 #map-container{
